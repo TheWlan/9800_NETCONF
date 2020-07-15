@@ -1,0 +1,13 @@
+<config>
+	<ap-cfg-data xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">
+		<ap-tags>
+			<ap-tag xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">
+			<ap-mac xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">{{ MAC_ADDRESS}}</ap-mac>
+			<policy-tag xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">{{ POLICY_TAG }}</policy-tag>
+			<site-tag xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">{{ SITE_TAG }}</site-tag>
+			<rf-tag xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-ap-cfg">{{ RF_TAG }}</rf-tag>
+			</ap-tag>
+		</ap-tags>
+	</ap-cfg-data>
+</config>
+

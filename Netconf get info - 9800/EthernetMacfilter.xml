@@ -1,0 +1,8 @@
+<filter>
+    <access-point-oper-data
+        xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-wireless-access-point-oper">
+        <ap-name-mac-map>
+            <eth-mac>{{ MAC_ADDRESS}}</eth-mac>
+        </ap-name-mac-map>
+    </access-point-oper-data>
+</filter>
